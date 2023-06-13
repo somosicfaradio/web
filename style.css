@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #380707;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+LOGO 
+.logo {
+    display: flex;
+    margin-left: 2px;
+    margin-top: 45px;
+    height: 2px;
+    width: 2px;
+    object-fit: cover;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.text_encabezado {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    margin-right: 50px;
+}
+.navbar a {
+    display: block;
+    padding: 13px 13px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #e91e63;
+}
+
+
+.header {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background:url(LogoRadio\ ICFA1500X600.jpg) no-repeat center;
+    background-blend-mode: soft-light;
+    background-size:cover;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: 2px solid #e91e63;
+    color: #fff;
+    text-decoration: none;
+    background: #e91e63;
+}
+
+.btn:hover {
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    p {
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .sau {
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .about {
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
